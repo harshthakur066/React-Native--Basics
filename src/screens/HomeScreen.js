@@ -25,7 +25,10 @@ const HomeScreen = ({ navigation }) => {
         title="Goto Random Color App" />
       <Button style={styles.touch}
         onPress={() => navigation.navigate('Square')}
-        title="Goto Custom Color App" />
+        title="Goto Custom Color App - Hooks - UseState" />
+      <Button style={styles.touch}
+        onPress={() => navigation.navigate('SquareRedux')}
+        title="Goto Custom Color App - Hooks - UseReducer" />
     </View>
 
   );
