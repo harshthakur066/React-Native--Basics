@@ -12,17 +12,20 @@ const HomeScreen = ({ navigation }) => {
       <TouchableOpacity
         style={styles.touch}
         onPress={() => navigation.navigate('List')} >
-        <Text style={styles.textButton} >Goto List</Text>
+        <Text style={styles.textButton} >Goto List View</Text>
       </TouchableOpacity>
       <Button style={styles.touch}
         onPress={() => navigation.navigate('Image')}
-        title="Goto Image Screen" />
+        title="Goto Image View" />
       <Button style={styles.touch}
         onPress={() => navigation.navigate('Counter')}
-        title="Goto Counter Screen" />
+        title="Goto Counter App" />
       <Button style={styles.touch}
         onPress={() => navigation.navigate('Color')}
-        title="Goto Random Color Screen" />
+        title="Goto Random Color App" />
+      <Button style={styles.touch}
+        onPress={() => navigation.navigate('Square')}
+        title="Goto Custom Color App" />
     </View>
 
   );
