@@ -35,6 +35,9 @@ const HomeScreen = ({ navigation }) => {
       <Button style={styles.touch}
         onPress={() => navigation.navigate('Text')}
         title="Goto Text display app" />
+      <Button style={styles.touch}
+        onPress={() => navigation.navigate('Box')}
+        title="Goto Text Box styling view" />
     </View>
 
   );
