@@ -23,7 +23,7 @@ const reducer = (state, action) => {
     }
 };
 
-const SquareScreenRedux = () => {
+const SquareScreenReducer = () => {
 
     const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 });
     const { red, green, blue } = state;
@@ -56,4 +56,4 @@ const SquareScreenRedux = () => {
 
 const styles = StyleSheet.create({});
 
-export default SquareScreenRedux;
+export default SquareScreenReducer;

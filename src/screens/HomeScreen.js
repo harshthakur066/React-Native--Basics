@@ -19,16 +19,19 @@ const HomeScreen = ({ navigation }) => {
         title="Goto Image View" />
       <Button style={styles.touch}
         onPress={() => navigation.navigate('Counter')}
-        title="Goto Counter App" />
+        title="Goto Counter App - Hooks - useState" />
+      <Button style={styles.touch}
+        onPress={() => navigation.navigate('CounterReducer')}
+        title="Goto Counter App - Hooks - useReducer" />
       <Button style={styles.touch}
         onPress={() => navigation.navigate('Color')}
         title="Goto Random Color App" />
       <Button style={styles.touch}
         onPress={() => navigation.navigate('Square')}
-        title="Goto Custom Color App - Hooks - UseState" />
+        title="Goto Custom Color App - Hooks - useState" />
       <Button style={styles.touch}
-        onPress={() => navigation.navigate('SquareRedux')}
-        title="Goto Custom Color App - Hooks - UseReducer" />
+        onPress={() => navigation.navigate('SquareReducer')}
+        title="Goto Custom Color App - Hooks - useReducer" />
     </View>
 
   );
