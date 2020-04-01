@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useReducer } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
 const reducer = (state, action) => {
@@ -20,14 +20,14 @@ const CounterScreenReducer = () => {
             <Button
                 title='Increase'
                 onPress={() => {
-                    dispatch({ type: counter, payload: 1 })
+                    dispatch({ type: 'counter', payload: 1 })
                 }} />
             <Button
                 title='Decrease'
                 onPress={() => {
-                    dispatch({ type: counter, payload: -1 })
+                    dispatch({ type: 'counter', payload: -1 })
                 }} />
-            <Text> Conter:</Text>
+            <Text> Conter: {counter} </Text>
         </View>
     );
 };
