@@ -32,6 +32,9 @@ const HomeScreen = ({ navigation }) => {
       <Button style={styles.touch}
         onPress={() => navigation.navigate('SquareReducer')}
         title="Goto Custom Color App - Hooks - useReducer" />
+      <Button style={styles.touch}
+        onPress={() => navigation.navigate('Text')}
+        title="Goto Text display app" />
     </View>
 
   );
