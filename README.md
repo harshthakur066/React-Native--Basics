@@ -14,4 +14,4 @@ clone the repo
 `npm start`
 
 Install Expo App in your mobile device.
-Scan the QR Code in LAN or Tunnle (for Local connenct your device using usb)
+Scan the QR Code in LAN(connect it with usb) or Tunnle.
